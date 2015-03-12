@@ -1,7 +1,5 @@
 $.fn.extend({
  	areaSelect:function(data){
-		//初始化html
-	/*	$(this).html('<select id="provice" name="provice" class="self-select"></select><select id="city" name="city" class="self-select"></select><select id="district" name="district" class="self-select"></select>');	*/
 		var aId = data.aId;
 		var oProvice = $('#'+aId[0]);
 		var oCity = $('#'+aId[1]);
