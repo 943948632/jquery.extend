@@ -1,4 +1,4 @@
-$.fn.extend({
+$.extend({
  	areaSelect:function(data){
 		var aId = data.aId;
 		var oProvice = $('#'+aId[0]);

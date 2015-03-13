@@ -41,7 +41,7 @@ $(function(){
 		city:542300,
 		district:542337
 	}
-	$('#area').areaSelect(data);
+	$.areaSelect(data);
 	$('#choose').click(function(){
 		alert('provice:'+$("#provice option:selected").text()+$('#provice').val());
 		console.log('provice:'+$("#provice option:selected").text()+$('#provice').val());
@@ -51,7 +51,7 @@ $(function(){
 	var data1 = {
 		aId:['provice1','city1','district1']
 	}
-	$('#area1').areaSelect(data1);
+	$.areaSelect(data1);
 });
 </script>
 </body>
